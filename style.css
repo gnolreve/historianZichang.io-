@@ -1,0 +1,37 @@
+body  
+
+.flex-container {
+    width: min(100%, 500px);
+    font-family: 'Trebuchet MS', sans-serif;
+    display: flex;
+    justify-content: center; 
+    align-items: center;  
+    font-size: clamp(12px, 5vw, 20px);
+    height: 150x;
+    } 
+
+.link-container{ display: flex;
+    justify-content: center;
+    align-items: center;  
+    height: 150x;
+    
+}
+ .flex-item {
+    font-family: 'Trebuchet MS', sans-serif;
+ margin: 5px;
+ align-items: center;
+ justify-content: center;
+ padding: 7x;
+ background: rgb(252, 3, 3)  ; 
+ height: 50px;
+ font-size: clamp(12px, 5vw, 20px);
+     }
+    
+    
+    /* unvisited link */
+     a:link {
+            color: rgb(153, 151, 151);}
+            /* visited link */
+     a:visited {
+        color: rgb(182, 179, 179);}
+      
